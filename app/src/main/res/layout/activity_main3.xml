@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+        <ImageView
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/signup"
+            app:civ_border_width="1dp"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/signupNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name :"
+            android:fontFamily="@font/text3"
+            android:textSize="6pt"
+            android:textStyle="bold"
+            android:textColor="#130400"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/signupNameTextField"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mnmn"
+            android:inputType="text"
+            android:textColor="#130400"
+            android:textSize="6pt"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="md" />
+
+        <TextView
+            android:id="@+id/signupemailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:fontFamily="@font/text3"
+            android:textSize="6pt"
+            android:textStyle="bold"
+            android:textColor="#130400"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/signupemailTextField"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mnmn"
+            android:inputType="text"
+            android:textColor="#130400"
+            android:textSize="6pt"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="md" />
+        <TextView
+            android:id="@+id/signuppasswordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password :"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            android:textSize="6pt"
+            android:textStyle="bold"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/signuppasswordTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/mnmn"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#130400"
+            android:textSize="10pt"
+            app:bootstrapBrand="info"
+
+            app:bootstrapSize="md" />
+
+        <TextView
+            android:id="@+id/signupPhoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone :"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            android:textSize="6pt"
+            android:textStyle="bold"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/signupPhoneTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/mnmn"
+            android:hint="0787700833"
+            android:inputType="phone"
+            android:textColor="#130400"
+            android:textSize="10pt"
+            app:bootstrapBrand="info"
+
+            app:bootstrapSize="md" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="40dp">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#130400"
+                android:baselineAligned="false"
+                android:fontFamily="@font/mmm"
+                android:text="Create Account"
+                android:onClick="CreateNewAccount"
+                android:textStyle="bold"
+                app:bootstrapSize="xl"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                app:showOutline="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

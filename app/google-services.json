@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404965593540",
+    "project_id": "hotandcold-98fda",
+    "storage_bucket": "hotandcold-98fda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404965593540:android:15c6c0907d358180159491",
+        "android_client_info": {
+          "package_name": "com.example.hotcold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404965593540-hsfu8cgsegnq9dv2ri91ddpsmqqvcq81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI-kEM3WoKxeMGDV_EJZaLKj-gwj9vu_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404965593540-hsfu8cgsegnq9dv2ri91ddpsmqqvcq81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
